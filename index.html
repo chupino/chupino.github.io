@@ -1,69 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 01 Presentacion Personal</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
 
 </head>
-<body>
-    <div class="container-presentation">
-        <img src="assets/avatar.jpg" class="avatar">
-        <div>
-          <div class="headers">
-            <i class="fa-solid fa-user icon"></i>
-            <h1>Mauricio Escalante</h1></div>
-          <h3>Me llamo Mauricio, tengo 17 años y estoy estudiando la carrera de Diseño y Desarrollo de Software</h3>
-        </div>
-      </div>
-      <div class="container" style="display: block;">
-        <div class="headers"><i class="fa-solid fa-circle-info icon"></i><h1>Acerca de mi</h1></div>
-        <h3>Me gusta jugar al billar y ver futbol, tambien me la paso bien mientras estoy desarrollando proyectos de software (hasta ahora)</h3>
-      </div>
-    
-    
-    <div class="container">
-        <div class="text">
-            <div class="headers"><i class="fa-solid fa-microchip icon"></i><h1>Tecnologias y Lenguajes de Programación</h1></div>
-            <h3>Actualmente manejo las siguientes:
-          
-                <ul class="languages-list">
-                  <li>Flutter</li>
-                  <li>React</li>
-                  <li>Dart</li>
-                  <li>Java</li>
-                  <li>Python</li>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>C++</li>
-                  <li>PHP</li>
-                </ul>
 
-            </h3>
+<body>
+  <header>
+    <section>
+      <div class="header-content">
+        <h1>Soy Mauricio Escalante</h1>
+        <p>Desarrollador y este es mi portafolio</p>
+        <a href="https://github.com/chupino" >
+          <div class="github-link">
+            <i class="fab fa-github fa-2x"></i>
+            <p>GitHub</p>
           </div>
-        <div class="text">
-          <div class="headers"><i class="fa-solid fa-school icon"></i><h1>Formacion Profesional</h1></div>
-          <h3>Me encuentro cursando el tercer ciclo de mi carrera, Diseño y Desarrollo de Software en Tecsup sede Arequipa</h3>
-          <img src="assets/tecsup.jpg" width="300" height="210">
-        </div>
-      </div>
-      <div class="container" style="display: block;">
+        </a>
         
-        <div class="headers">
-          <i class="fa-sharp fa-solid fa-globe icon"></i>
-          <h1>
-            Idiomas
-          </h1>
-        </div>
-          <h3>
-            Actualmente estoy en un nivel A6 de Inglés
-          </h3>
       </div>
+    </section>
+  </header>
+  <div class="tab_box">
+    <button class="tab_btn active">Presentación</button>
+    <button class="tab_btn">Tecnologias Y Lenguajes</button>
+    <button class="tab_btn">Formación</button>
+    <button class="tab_btn">Idiomas</button>
+    <div class="line"></div>
+  </div>
+  <div class="content_box">
+    <div class="content active">
+      <div class="card">
+        <img src="assets/avatar2.jpg" class="avatar">
+        <div class="content-card">
+          <h1>Mi Persona</h1>
+          <p>Me llamo Mauricio, tengo 18 años y estoy estudiando la carrera de Diseño y Desarrollo de Software</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
       
+      <h1>Lenguajes de Programación</h1>
+      <br>
+
+      <div class="card">
+        <div class="content-card">
+          <ul class="list">
+            <li>Dart</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML, CSS y JavaScript</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Php</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <h1>Tecnologias</h1>
+      <br>
+      <div class="card">
+        <img src="assets/flutter.png" alt="">
+        <div class="content-card">
+          <h1>Flutter</h1>
+          <p>Framework de desarrollo móvil multiplataforma</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/react.png" alt="">
+        <div class="content-card">
+          <h1>React</h1>
+          <p>Framework de desarrollo web reactivo (SPA)</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/vue.png" alt="">
+        <div class="content-card">
+          <h1>Vue JS</h1>
+          <p>Framework de desarrollo web reactivo (SPA)</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/django.png" alt="">
+        <div class="content-card">
+          <h1>Django</h1>
+          <p>Framework de desarrollo web orientado al backend</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/laravel.png" alt="">
+        <div class="content-card">
+          <h1>Laravel</h1>
+          <p>Framework de desarrollo web orientado al backend</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/mysql.png" alt="">
+        <div class="content-card">
+          <h1>MySQL</h1>
+          <p>Sistema gestor de base de datos relacionales</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/mongo.png" alt="">
+        <div class="content-card">
+          <h1>MongoDB</h1>
+          <p>Sistema gestor de base de datos no relacionales</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/express.png" alt="">
+        <div class="content-card">
+          <h1>Express JS</h1>
+          <p>Framework de desarrollo de aplicaciones web en Node.JS</p>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <img src="assets/pocketbasepng.png" alt="">
+        <div class="content-card">
+          <h1>PocketBase</h1>
+          <p>Backend basado en Go de codigo abierto</p>
+          </ul>
+        </div>
+      </div>
     
+    </div>
+    <div class="content">
+      <div class="card">
+        <div class="content-card">
+          <h1>Formación Profesional</h1>
+          <p>Estoy cursando el cuarto ciclo de la carrera de Diseño y Desarrollo de Software en Tecsup sede Arequipa</p>
+          <br>
+          <img src="assets/tecsup.jpg" alt="" style="height: 300px">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="card">
+        <img src="assets/idiomaspng.png" alt="">
+        <div class="content-card">
+          <h1>Idiomas</h1>
+          <p>Actualmente tengo un nivel A6 en Inglés</p>
+          <br>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--   <div class="container" style="display: block;">
+    <div class="headers"><i class="fa-solid fa-circle-info icon"></i>
+      <h1>Acerca de mi</h1>
+    </div>
+    <h3>Me gusta jugar al billar y ver futbol, tambien me la paso bien mientras estoy desarrollando proyectos de
+      software (hasta ahora)</h3>
+  </div> -->
+
+
+
+
+
+  <script>
+    const tabs = document.querySelectorAll('.tab_btn');
+    const all_content = document.querySelectorAll('.content');
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', (e) => {
+        tabs.forEach(tab => { tab.classList.remove('active') })
+        tab.classList.add('active');
+        var line = document.querySelector('.line');
+        line.style.width = e.target.offsetWidth + 'px';
+        line.style.left = e.target.offsetLeft + 'px';
+
+        all_content.forEach(content => {
+          content.classList.remove('active')
+        });
+        all_content[index].classList.add('active');
+
+      })
+
+    })
+  </script>
 </body>
+
 </html>-
